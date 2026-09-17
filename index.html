@@ -1,566 +1,712 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- ================ FONTS ================ -->
-        <link
-            rel="preconnect"
-            href="https://fonts.googleapis.com"
-        />
-        <link
-            rel="preconnect"
-            href="https://fonts.gstatic.com"
-            crossorigin
-        />
-        <link
-            href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-            rel="stylesheet"
-        />
+    <!-- ================ FONTS ================ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- ================ ICONS ================ -->
+    <!-- ================ ICONS ================ -->
 
-        <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-        />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
 
-        <!-- ================ STYLESHEETS ================ -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-            crossorigin="anonymous"
-        />
+    <!-- ================ STYLESHEETS ================ -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
 
-        <link
-            rel="stylesheet"
-            href="assets/styles/style.css"
-        />
+    <link rel="stylesheet" href="assets/styles/style.css" />
 
-        <link
-            rel="shortcut icon"
-            href="assets/images/favicon-light.svg"
-            type="image/svg+xml"
-        />
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon-light.svg"
+      type="image/svg+xml"
+    />
 
-        <title>Mousa Joudeh - Portfolio</title>
-    </head>
-    <body>
-        <!-- <div class="loader">
-            <div class="loader__letter-m">M</div>
-            <div class="loader__logo">
-                <img
-                    src="assets/images/logo.svg"
-                    alt="Logo"
-                />
+    <title>Mousa Joudeh - Portfolio</title>
+  </head>
+  <body>
+    <div class="loader reveal">
+      <div class="loader__letter-m">M</div>
+      <div class="loader__logo">
+        <img src="assets/images/logo.svg" alt="Logo" />
+      </div>
+      <div class="loader__letter-j">J</div>
+    </div>
+
+    <div class="page">
+      <!-- ================ HEADER ================ -->
+      <header class="header">
+        <div class="container">
+          <div class="header__container">
+            <div class="header__logo">
+              <img src="assets/images/logo.svg" alt="Logo" />
+              <span>Mousa Joudeh</span>
             </div>
-            <div class="loader__letter-j">J</div>
-        </div> -->
-
-        <div class="reveal">
-            <div class="page">
-                <header class="header">
-                    <div class="container header__container">
-                        <div class="header__logo">
-                            <img
-                                src="assets/images/logo.svg"
-                                alt="Logo"
-                            />
-                            <span>Mousa Joudeh</span>
-                        </div>
-                        <nav class="header__nav d-md-flex d-none">
-                            <ul class="header__nav-list m-0 p-0">
-                                <li class="header__nav-item">
-                                    <a
-                                        href="#"
-                                        class="nav-link"
-                                    >
-                                        Home
-                                    </a>
-                                </li>
-                                <li class="header__nav-item">
-                                    <a
-                                        href="#about"
-                                        class="nav-link"
-                                    >
-                                        About Us
-                                    </a>
-                                </li>
-                                <li class="header__nav-item">
-                                    <a
-                                        href="#projects"
-                                        class="nav-link"
-                                    >
-                                        Projects
-                                    </a>
-                                </li>
-                                <li class="header__nav-item">
-                                    <a
-                                        href="#services"
-                                        class="nav-link"
-                                    >
-                                        Services
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                        <div class="header__actions">
-                            <a
-                                href="#contact"
-                                class="btn btn-secondary"
-                            >
-                                <div class="btn-text">
-                                    <span class="btn-text__text"> Contact Us </span>
-                                    <span class="btn-text__hovered"> Contact Us </span>
-                                </div>
-                                <span class="btn-icon">
-                                    <span class="material-symbols-outlined btn-icon__hovered"> arrow_forward </span>
-                                    <span class="material-symbols-outlined btn-icon__icon"> arrow_forward </span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </header>
-                <main>
-                    <section
-                        id="home"
-                        class="home"
-                    >
-                        <div class="container d-flex flex-wrap flex-md-nowrap gap-4">
-                            <div class="left-side d-flex flex-column gap-5 w-50">
-                                <div class="group d-flex flex-column row-gap-2">
-                                    <h1 class="home__title">Turning Ideas</h1>
-                                    <h3 class="home__subtitle">Into Digital Experiences</h3>
-                                    <p class="home__description">
-                                        Full Stack Web Developer currently training at Orange Coding Academy. I build with curiosity, attention to detail, and a commitment to
-                                        learning what it takes to turn an idea into a well-crafted project.
-                                    </p>
-                                </div>
-                                <div class="group d-flex gap-3">
-                                    <a
-                                        href="#contact"
-                                        class="btn btn-primary"
-                                    >
-                                        <div class="btn-text">
-                                            <span class="btn-text__text"> Contact Us </span>
-                                            <span class="btn-text__hovered"> Contact Us </span>
-                                        </div>
-                                        <span class="btn-icon">
-                                            <span class="material-symbols-outlined btn-icon__hovered"> arrow_forward </span>
-                                            <span class="material-symbols-outlined btn-icon__icon"> arrow_forward </span>
-                                        </span>
-                                    </a>
-                                    <a
-                                        href="#contact"
-                                        class="btn btn-secondary"
-                                    >
-                                        <div class="btn-text">
-                                            <span class="btn-text__text"> Download my CV </span>
-                                            <span class="btn-text__hovered"> Download my CV </span>
-                                        </div>
-                                        <span class="btn-icon">
-                                            <span class="material-symbols-outlined btn-icon__hovered"> arrow_forward </span>
-                                            <span class="material-symbols-outlined btn-icon__icon"> arrow_forward </span>
-                                        </span>
-                                    </a>
-                                </div>
-                                <div class="home__socials">
-                                    <p class="home__socials__title">Follow me on</p>
-                                    <div class="home__socials__icons d-flex gap-2">
-                                        <!-- GitHub -->
-                                        <a
-                                            href=""
-                                            class="home__socials__icon btn btn-secondary"
-                                        >
-                                            <div class="btn-text">
-                                                <span class="btn-text__text">
-                                                    <svg
-                                                        role="img"
-                                                        viewBox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        fill="currentColor"
-                                                    >
-                                                        <title>GitHub</title>
-                                                        <path
-                                                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-                                                        />
-                                                    </svg>
-                                                </span>
-                                                <span class="btn-text__hovered">
-                                                    <svg
-                                                        role="img"
-                                                        viewBox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        fill="currentColor"
-                                                    >
-                                                        <title>GitHub</title>
-                                                        <path
-                                                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
-                                                        />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </a>
-                                        <!-- Instagram -->
-                                        <a
-                                            href=""
-                                            class="home__socials__icon btn btn-secondary"
-                                        >
-                                            <div class="btn-text">
-                                                <span class="btn-text__text">
-                                                    <svg
-                                                        role="img"
-                                                        viewBox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        fill="currentColor"
-                                                    >
-                                                        <title>Instagram</title>
-                                                        <path
-                                                            d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
-                                                        />
-                                                    </svg>
-                                                </span>
-                                                <span class="btn-text__hovered">
-                                                    <svg
-                                                        role="img"
-                                                        viewBox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        fill="currentColor"
-                                                    >
-                                                        <title>Instagram</title>
-                                                        <path
-                                                            d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
-                                                        />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </a>
-                                        <!-- Facebook -->
-                                        <a
-                                            href=""
-                                            class="home__socials__icon btn btn-secondary"
-                                        >
-                                            <div class="btn-text">
-                                                <span class="btn-text__text">
-                                                    <svg
-                                                        role="img"
-                                                        viewBox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        fill="currentColor"
-                                                    >
-                                                        <title>Facebook</title>
-                                                        <path
-                                                            d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
-                                                        />
-                                                    </svg>
-                                                </span>
-                                                <span class="btn-text__hovered">
-                                                    <svg
-                                                        role="img"
-                                                        viewBox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                        width="24"
-                                                        height="24"
-                                                        fill="currentColor"
-                                                    >
-                                                        <title>Facebook</title>
-                                                        <path
-                                                            d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
-                                                        />
-                                                    </svg>
-                                                </span>
-                                            </div>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="right-side w-50 d-flex flex-column gap-5 align-items-end">
-                                <img
-                                    src="assets/images/home-image.jpg"
-                                    alt="Mousa Joudeh"
-                                    class="home__img"
-                                />
-
-                                <div class="home__soft-skills">
-                                    <div class="home__soft-skills__wrapper">
-                                        <div class="home__soft-skills__slider">
-                                            <img
-                                                src="assets/images/tools-01.jpg"
-                                                class="home__soft-skills__slide"
-                                            />
-                                            <img
-                                                src="assets/images/tools-02.jpg"
-                                                class="home__soft-skills__slide"
-                                            />
-                                            <img
-                                                src="assets/images/tools-03.jpg"
-                                                class="home__soft-skills__slide"
-                                            />
-                                            <img
-                                                src="assets/images/tools-04.jpg"
-                                                class="home__soft-skills__slide"
-                                            />
-                                        </div>
-                                    </div>
-                                    <div class="home__soft-skills__list">
-                                        <p class="home__soft-skills__item">Problem Solving</p>
-                                        <p class="home__soft-skills__item">Fast Learning</p>
-                                        <p class="home__soft-skills__item">Communication</p>
-                                        <p class="home__soft-skills__item">Attention to Detail</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section
-                        id="tools"
-                        class="tools"
-                    >
-                        <marquee direction="left">
-                            <span>HTML5</span> &bull; <span>CSS3</span> &bull; <span>JavaScript</span> &bull; <span>Git</span> &bull; <span>GitHub</span> &bull;
-                            <span>VS Code</span> &bull; <span>Figma</span> &bull; <span>Bootstrap</span> &bull; <span>ChatGPT</span> &bull; <span>Claude</span> &bull;
-                            <span>Canva</span> &bull;
-                            <span>Microsoft Office</span>
-                        </marquee>
-                    </section>
-                    <section
-                        id="about"
-                        class="about"
-                    >
-                        <div class="container d-flex flex-column gap-5">
-                            <span class="section__title">About Me</span>
-
-                            <div class="about__content d-flex flex-column gap-4">
-                                <p class="about__text">
-                                    I'm Mousa Joudeh, a full-stack web developer with a passion for creating innovative and user-friendly digital experiences. I have a strong
-                                    background in computer science and have worked in various industries, including software development, web design, and digital marketing. I am a
-                                    self-taught developer and have a keen interest in learning new technologies and techniques.
-                                </p>
-                                <div class="about__experience d-flex flex-wrap gap-4 justify-content-center">
-                                    <article class="about__experience__item">
-                                        <h1>15+</h1>
-                                        <p>Completed Projects</p>
-                                    </article>
-                                    <article class="about__experience__item">
-                                        <h1>15+</h1>
-                                        <p>Completed Projects</p>
-                                    </article>
-                                    <article class="about__experience__item">
-                                        <h1>15+</h1>
-                                        <p>Completed Projects</p>
-                                    </article>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section
-                        id="projects"
-                        class="projects"
-                    >
-                        <div class="container">
-                            <div
-                                class="group d-flex flex-column row-gap-2 mb-4"
-                                style="max-width: 450px; width: 100%"
-                            >
-                                <span class="section__title">Projects</span>
-                                <h3 class="section__subtitle">A collection of projects showcasing my skills in development, design, UX, and problem-solving.</h3>
-                            </div>
-                            <div class="projects__content d-flex justify-content-between flex-wrap gap-5">
-                                <article class="projects__item">
-                                    <div class="projects__item__image">
-                                        <img src="assets/images/project.jpg" />
-                                    </div>
-                                    <div class="projects__item__content">
-                                        <h1>PryonTech E-Commerce</h1>
-                                        <p>Modern e-commerce platform for gaming and technology products.</p>
-                                        <div class="projects__item__tools">
-                                            <span class="projects__item__tools">HTML</span>
-                                            <span class="projects__item__tools">CSS</span>
-                                            <span class="projects__item__tools">JavaScript</span>
-                                            <span class="projects__item__tools">Bootstrap</span>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="projects__item">
-                                    <div class="projects__item__image">
-                                        <img src="assets/images/project.jpg" />
-                                    </div>
-                                    <div class="projects__item__content">
-                                        <h1>PryonTech E-Commerce</h1>
-                                        <p>Modern e-commerce platform for gaming and technology products.</p>
-                                        <div class="projects__item__tools">
-                                            <span class="projects__item__tools">HTML</span>
-                                            <span class="projects__item__tools">CSS</span>
-                                            <span class="projects__item__tools">JavaScript</span>
-                                            <span class="projects__item__tools">Bootstrap</span>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="projects__item">
-                                    <div class="projects__item__image">
-                                        <img src="assets/images/project.jpg" />
-                                    </div>
-                                    <div class="projects__item__content">
-                                        <h1>PryonTech E-Commerce</h1>
-                                        <p>Modern e-commerce platform for gaming and technology products.</p>
-                                        <div class="projects__item__tools">
-                                            <span class="projects__item__tools">HTML</span>
-                                            <span class="projects__item__tools">CSS</span>
-                                            <span class="projects__item__tools">JavaScript</span>
-                                            <span class="projects__item__tools">Bootstrap</span>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="projects__item">
-                                    <div class="projects__item__image">
-                                        <img src="assets/images/project.jpg" />
-                                    </div>
-                                    <div class="projects__item__content">
-                                        <h1>PryonTech E-Commerce</h1>
-                                        <p>Modern e-commerce platform for gaming and technology products.</p>
-                                        <div class="projects__item__tools">
-                                            <span class="projects__item__tools">HTML</span>
-                                            <span class="projects__item__tools">CSS</span>
-                                            <span class="projects__item__tools">JavaScript</span>
-                                            <span class="projects__item__tools">Bootstrap</span>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="projects__item">
-                                    <div class="projects__item__image">
-                                        <img src="assets/images/project.jpg" />
-                                    </div>
-                                    <div class="projects__item__content">
-                                        <h1>PryonTech E-Commerce</h1>
-                                        <p>Modern e-commerce platform for gaming and technology products.</p>
-                                        <div class="projects__item__tools">
-                                            <span class="projects__item__tools">HTML</span>
-                                            <span class="projects__item__tools">CSS</span>
-                                            <span class="projects__item__tools">JavaScript</span>
-                                            <span class="projects__item__tools">Bootstrap</span>
-                                        </div>
-                                    </div>
-                                </article>
-                                <article class="projects__item">
-                                    <div class="projects__item__image">
-                                        <img src="assets/images/project.jpg" />
-                                    </div>
-                                    <div class="projects__item__content">
-                                        <h1>PryonTech E-Commerce</h1>
-                                        <p>Modern e-commerce platform for gaming and technology products.</p>
-                                        <div class="projects__item__tools">
-                                            <span class="projects__item__tools">HTML</span>
-                                            <span class="projects__item__tools">CSS</span>
-                                            <span class="projects__item__tools">JavaScript</span>
-                                            <span class="projects__item__tools">Bootstrap</span>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                            <div class="section__footer d-flex py-4 justify-content-end">
-                                <a
-                                    href="#contact"
-                                    class="btn btn-primary"
-                                >
-                                    <div class="btn-text">
-                                        <span class="btn-text__text">View More</span>
-                                        <span class="btn-text__hovered">View More</span>
-                                    </div>
-                                    <span class="btn-icon">
-                                        <span class="material-symbols-outlined btn-icon__hovered"> arrow_forward </span>
-                                        <span class="material-symbols-outlined btn-icon__icon"> arrow_forward </span>
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </section>
-                </main>
-                <footer>
-                    <div class="container">
-                        <div class="footer__content">
-                            <div class="footer__side">
-                                <div class="footer__logo">
-                                    <img
-                                        src="assets/images/logo.svg"
-                                        alt="Logo"
-                                    />
-                                    <span>Mousa Joudeh</span>
-                                </div>
-                                <p>Turning Ideas Into Digital Experiences</p>
-                                <div class="footer__contact"><span>(email)</span> <a href="mailto:mousajoudeh99@gmail.com">mousa.joudeh@gmail.com</a></div>
-                                <div class="footer__contact"><span>(phone)</span> <a href="tel:0798557532">0798557532</a></div>
-                            </div>
-                            <div class="footer__side">
-                                <span class="footer__title">(Links)</span>
-                                <nav class="footer__links">
-                                    <a
-                                        href="#"
-                                        class="nav-link"
-                                    >
-                                        Home
-                                    </a>
-                                    <a
-                                        href="#about"
-                                        class="nav-link"
-                                    >
-                                        About
-                                    </a>
-                                    <a
-                                        href="#projects"
-                                        class="nav-link"
-                                    >
-                                        Projects
-                                    </a>
-                                    <a
-                                        href="#services"
-                                        class="nav-link"
-                                    >
-                                        Services
-                                    </a>
-                                </nav>
-                            </div>
-                            <div class="footer__side">
-                                <span class="footer__title">(Socials)</span>
-                                <nav class="footer__links">
-                                    <a
-                                        href="#"
-                                        class="nav-link"
-                                    >
-                                        LinkedIn
-                                    </a>
-                                    <a
-                                        href="#about"
-                                        class="nav-link"
-                                    >
-                                        GitHub
-                                    </a>
-                                    <a
-                                        href="#projects"
-                                        class="nav-link"
-                                    >
-                                        Instagram
-                                    </a>
-                                </nav>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
+            <nav class="header__nav d-md-flex d-none">
+              <ul class="header__nav-list m-0 p-0">
+                <li class="header__nav-item">
+                  <a href="#" class="nav-link"> Home </a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#about" class="nav-link"> About Us </a>
+                </li>
+                <li class="header__nav-item">
+                  <a href="#projects" class="nav-link"> Projects </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__actions">
+              <a href="#contact" class="btn btn-secondary">
+                <div class="btn-text">
+                  <span class="btn-text__text"> Contact Us </span>
+                  <span class="btn-text__hovered"> Contact Us </span>
+                </div>
+                <span class="btn-icon">
+                  <span class="material-symbols-outlined btn-icon__hovered">
+                    arrow_forward
+                  </span>
+                  <span class="material-symbols-outlined btn-icon__icon">
+                    arrow_forward
+                  </span>
+                </span>
+              </a>
             </div>
+          </div>
         </div>
-    </body>
+      </header>
+      <main>
+        <!-- ================ HOME ================ -->
+        <section id="home" class="home">
+          <div class="container d-flex flex-wrap flex-md-nowrap gap-4">
+            <div class="left-side d-flex flex-column gap-5 w-50">
+              <div class="group d-flex flex-column row-gap-2">
+                <h1 class="home__title">Turning <span>Ideas</span></h1>
+                <h3 class="home__subtitle">Into Digital Experiences</h3>
+                <p class="home__description">
+                  Full Stack Web Developer currently training at Orange Coding
+                  Academy. I build with curiosity, attention to detail, and a
+                  commitment to learning what it takes to turn an idea into a
+                  well-crafted project.
+                </p>
+              </div>
+              <div class="group d-flex gap-3">
+                <a href="#contact" class="btn btn-primary">
+                  <div class="btn-text">
+                    <span class="btn-text__text"> Start a Project </span>
+                    <span class="btn-text__hovered"> Start a Project </span>
+                  </div>
+                  <span class="btn-icon">
+                    <span class="material-symbols-outlined btn-icon__hovered">
+                      arrow_forward
+                    </span>
+                    <span class="material-symbols-outlined btn-icon__icon">
+                      arrow_forward
+                    </span>
+                  </span>
+                </a>
+                <a href="#" class="btn btn-secondary">
+                  <div class="btn-text">
+                    <span class="btn-text__text"> Download my CV </span>
+                    <span class="btn-text__hovered"> Download my CV </span>
+                  </div>
+                  <span class="btn-icon">
+                    <span class="material-symbols-outlined btn-icon__hovered">
+                      arrow_forward
+                    </span>
+                    <span class="material-symbols-outlined btn-icon__icon">
+                      arrow_forward
+                    </span>
+                  </span>
+                </a>
+              </div>
+              <div class="home__socials">
+                <p class="home__socials__title">Follow me on</p>
+                <div class="home__socials__icons d-flex gap-2">
+                  <!-- GitHub -->
+                  <a
+                    href="https://github.com/Mousa-Joudeh"
+                    class="home__socials__icon btn btn-secondary"
+                    target="_blank"
+                  >
+                    <div class="btn-text">
+                      <span class="btn-text__text">
+                        <svg
+                          role="img"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          fill="currentColor"
+                        >
+                          <title>GitHub</title>
+                          <path
+                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                          />
+                        </svg>
+                      </span>
+                      <span class="btn-text__hovered">
+                        <svg
+                          role="img"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          fill="currentColor"
+                        >
+                          <title>GitHub</title>
+                          <path
+                            d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                  <!-- Instagram -->
+                  <a
+                    href="https://www.instagram.com/joudehmousa/"
+                    class="home__socials__icon btn btn-secondary"
+                    target="_blank"
+                  >
+                    <div class="btn-text">
+                      <span class="btn-text__text">
+                        <svg
+                          role="img"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          fill="currentColor"
+                        >
+                          <title>Instagram</title>
+                          <path
+                            d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                          />
+                        </svg>
+                      </span>
+                      <span class="btn-text__hovered">
+                        <svg
+                          role="img"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          fill="currentColor"
+                        >
+                          <title>Instagram</title>
+                          <path
+                            d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                  <!-- Facebook -->
+                  <a
+                    href="https://www.facebook.com/mousa.joudeh.58/"
+                    class="home__socials__icon btn btn-secondary"
+                    target="_blank"
+                  >
+                    <div class="btn-text">
+                      <span class="btn-text__text">
+                        <svg
+                          role="img"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          fill="currentColor"
+                        >
+                          <title>Facebook</title>
+                          <path
+                            d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
+                          />
+                        </svg>
+                      </span>
+                      <span class="btn-text__hovered">
+                        <svg
+                          role="img"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          fill="currentColor"
+                        >
+                          <title>Facebook</title>
+                          <path
+                            d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="right-side w-50 d-flex flex-column gap-5 align-items-end"
+            >
+              <img
+                src="assets/images/home-image.jpg"
+                alt="Mousa Joudeh"
+                class="home__img"
+              />
+
+              <div class="home__soft-skills">
+                <div class="home__soft-skills__wrapper">
+                  <div class="home__soft-skills__slider">
+                    <img
+                      src="assets/images/skill-01.jpg"
+                      class="home__soft-skills__slide"
+                    />
+                    <img
+                      src="assets/images/skill-02.jpg"
+                      class="home__soft-skills__slide"
+                    />
+                    <img
+                      src="assets/images/skill-03.jpg"
+                      class="home__soft-skills__slide"
+                    />
+                    <img
+                      src="assets/images/skill-04.jpg"
+                      class="home__soft-skills__slide"
+                    />
+                  </div>
+                </div>
+                <div class="home__soft-skills__list">
+                  <p class="home__soft-skills__item">Problem Solving</p>
+                  <p class="home__soft-skills__item">Fast Learning</p>
+                  <p class="home__soft-skills__item">Communication</p>
+                  <p class="home__soft-skills__item">Attention to Detail</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ================ TOOLS ================ -->
+        <section id="tools" class="tools">
+          <div class="wrapper">
+            <div class="infinite-scroll">
+              <ul>
+                <li>
+                  <img src="assets/images/html.svg" alt="HTML" />
+                  <span>HTML</span>
+                </li>
+                <li>
+                  <img src="assets/images/css.svg" alt="CSS" />
+                  <span>CSS</span>
+                </li>
+                <li>
+                  <img src="assets/images/javascript.svg" alt="JavaScript" />
+                  <span>JavaScript</span>
+                </li>
+                <li>
+                  <img src="assets/images/bootstrap.svg" alt="Bootstrap" />
+                  <span>Bootstrap</span>
+                </li>
+                <li>
+                  <img src="assets/images/figma.svg" alt="Figma" />
+                  <span>Figma</span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="assets/images/html.svg" alt="HTML" />
+                  <span>HTML</span>
+                </li>
+                <li>
+                  <img src="assets/images/css.svg" alt="CSS" />
+                  <span>CSS</span>
+                </li>
+                <li>
+                  <img src="assets/images/javascript.svg" alt="JavaScript" />
+                  <span>JavaScript</span>
+                </li>
+                <li>
+                  <img src="assets/images/bootstrap.svg" alt="Bootstrap" />
+                  <span>Bootstrap</span>
+                </li>
+                <li>
+                  <img src="assets/images/figma.svg" alt="Figma" />
+                  <span>Figma</span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="assets/images/html.svg" alt="HTML" />
+                  <span>HTML</span>
+                </li>
+                <li>
+                  <img src="assets/images/css.svg" alt="CSS" />
+                  <span>CSS</span>
+                </li>
+                <li>
+                  <img src="assets/images/javascript.svg" alt="JavaScript" />
+                  <span>JavaScript</span>
+                </li>
+                <li>
+                  <img src="assets/images/bootstrap.svg" alt="Bootstrap" />
+                  <span>Bootstrap</span>
+                </li>
+                <li>
+                  <img src="assets/images/figma.svg" alt="Figma" />
+                  <span>Figma</span>
+                </li>
+              </ul>
+              <ul>
+                <li>
+                  <img src="assets/images/html.svg" alt="HTML" />
+                  <span>HTML</span>
+                </li>
+                <li>
+                  <img src="assets/images/css.svg" alt="CSS" />
+                  <span>CSS</span>
+                </li>
+                <li>
+                  <img src="assets/images/javascript.svg" alt="JavaScript" />
+                  <span>JavaScript</span>
+                </li>
+                <li>
+                  <img src="assets/images/bootstrap.svg" alt="Bootstrap" />
+                  <span>Bootstrap</span>
+                </li>
+                <li>
+                  <img src="assets/images/figma.svg" alt="Figma" />
+                  <span>Figma</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- ================ ABOUT ================ -->
+        <section id="about" class="about">
+          <div class="container d-flex flex-column gap-5">
+            <span class="section__title">About Me</span>
+
+            <div class="about__content d-flex flex-column gap-4">
+              <p class="about__text">
+                I'm Mousa Joudeh, a full-stack web developer passionate about
+                creating innovative, user-friendly digital experiences. With a
+                background in computer science, I'm a self-taught developer who
+                enjoys exploring new technologies and continuously improving my
+                skills.
+              </p>
+              <div
+                class="about__experience d-flex flex-wrap gap-4 justify-content-center"
+              >
+                <article class="about__experience__item">
+                  <h1>2+</h1>
+                  <p>Years of experience</p>
+                </article>
+                <article class="about__experience__item">
+                  <h1>10+</h1>
+                  <p>Completed Projects</p>
+                </article>
+                <article class="about__experience__item">
+                  <h1>12+</h1>
+                  <p>Technologies</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- ================ PROJECTS ================ -->
+        <section id="projects" class="projects">
+          <div class="container">
+            <div
+              class="group d-flex flex-column row-gap-2 mb-4"
+              style="max-width: 450px; width: 100%"
+            >
+              <span class="section__title">Projects</span>
+              <h3 class="section__subtitle">
+                A collection of projects showcasing my skills in development,
+                design, UX, and problem-solving.
+              </h3>
+            </div>
+            <div
+              class="projects__content d-flex justify-content-between flex-wrap row-gap-5"
+            >
+              <!-- ================ PROJECT 1 ================ -->
+              <article class="projects__item">
+                <div class="projects__item__image">
+                  <img src="assets/images/project-01.png" />
+                </div>
+                <div class="projects__item__content">
+                  <h1>PryonTech E-Commerce <small>(comming soon)</small></h1>
+                  <p>
+                    Modern e-commerce platform for gaming and technology
+                    products.
+                  </p>
+                  <div class="projects__item__tools">
+                    <span class="projects__item__tool">HTML</span>
+                    <span class="projects__item__tool">CSS</span>
+                    <span class="projects__item__tool">JavaScript</span>
+                    <span class="projects__item__tool">Bootstrap</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- ================ PROJECT 2 ================ -->
+              <article class="projects__item">
+                <div class="projects__item__image">
+                  <img src="assets/images/project-02.png" />
+                </div>
+                <div class="projects__item__content">
+                  <h1>Working-Mom Platform <small>(comming soon)</small></h1>
+                  <p>
+                    Modern digital platform designed to support working mothers
+                    with accessible resources, services, and a user-friendly
+                    experience.
+                  </p>
+                  <div class="projects__item__tools">
+                    <span class="projects__item__tool">HTML</span>
+                    <span class="projects__item__tool">CSS</span>
+                    <span class="projects__item__tool">JavaScript</span>
+                    <span class="projects__item__tool">Bootstrap</span>
+                  </div>
+                </div>
+              </article>
+              <!-- ================ PROJECT 3 ================ -->
+              <article class="projects__item">
+                <div class="projects__item__image">
+                  <img src="assets/images/project-03.png" />
+                </div>
+                <div class="projects__item__content">
+                  <h1>Travel Booking Platform <small>(comming soon)</small></h1>
+                  <p>
+                    Responsive travel booking interface with a structured
+                    reservation system.
+                  </p>
+                  <div class="projects__item__tools">
+                    <span class="projects__item__tool">HTML</span>
+                    <span class="projects__item__tool">CSS</span>
+                    <span class="projects__item__tool">JavaScript</span>
+                  </div>
+                </div>
+              </article>
+              <!-- ================ PROJECT 4 ================ -->
+              <article class="projects__item">
+                <div class="projects__item__image">
+                  <img src="assets/images/project-04.png" />
+                </div>
+                <div class="projects__item__content">
+                  <h1>Admin Dashboard <small>(comming soon)</small></h1>
+                  <p>
+                    Modern dashboard for managing products, users, orders, and
+                    analytics.
+                  </p>
+                  <div class="projects__item__tools">
+                    <span class="projects__item__tool">HTML</span>
+                    <span class="projects__item__tool">CSS</span>
+                    <span class="projects__item__tool">JavaScript</span>
+                  </div>
+                </div>
+              </article>
+              <!-- ================ PROJECT 5 ================ -->
+              <article class="projects__item">
+                <div class="projects__item__image">
+                  <img src="assets/images/project-05.png" />
+                </div>
+                <div class="projects__item__content">
+                  <h1>Personal Portfolio <small>(comming soon)</small></h1>
+                  <p>
+                    A modern portfolio showcasing my skills, projects, and
+                    development journey.
+                  </p>
+                  <div class="projects__item__tools">
+                    <span class="projects__item__tool">HTML</span>
+                    <span class="projects__item__tool">CSS</span>
+                    <span class="projects__item__tool">JavaScript</span>
+                    <span class="projects__item__tool">Bootstrap</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="d-flex py-4 justify-content-end">
+              <a href="#projects" class="btn btn-primary">
+                <div class="btn-text">
+                  <span class="btn-text__text">View More</span>
+                  <span class="btn-text__hovered">View More</span>
+                </div>
+                <span class="btn-icon">
+                  <span class="material-symbols-outlined btn-icon__hovered">
+                    arrow_forward
+                  </span>
+                  <span class="material-symbols-outlined btn-icon__icon">
+                    arrow_forward
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- ================ CONTACT ================ -->
+        <section id="contact" class="contact">
+          <div class="container">
+            <div class="group d-flex flex-column row-gap-2 mb-4">
+              <span class="section__title">Contact Us</span>
+              <p class="section__subtitle">
+                Get in touch with us and let's discuss your project ideas.
+              </p>
+            </div>
+            <div class="contact__content">
+              <form class="contact__form">
+                <div class="field-group">
+                  <label for="full-name">Full Name</label>
+                  <input
+                    type="text"
+                    id="full-name"
+                    placeholder="Enter your name"
+                  />
+                </div>
+                <div class="field-group">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                  />
+                </div>
+                <div class="field-group">
+                  <label for="message">Message</label>
+                  <textarea
+                    type="text"
+                    id="message"
+                    placeholder="Type a message..."
+                  ></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  <div class="btn-text">
+                    <span class="btn-text__text"> Submit </span>
+                    <span class="btn-text__hovered"> Submit </span>
+                  </div>
+                  <span class="btn-icon">
+                    <span class="material-symbols-outlined btn-icon__hovered">
+                      arrow_forward
+                    </span>
+                    <span class="material-symbols-outlined btn-icon__icon">
+                      arrow_forward
+                    </span>
+                  </span>
+                </button>
+              </form>
+              <div class="contact__info">
+                <div class="contact__info-group">
+                  <p>Further Enquiries</p>
+                  <a href="mailto:mousajoudeh99@gmail.com" class="nav-link">
+                    mousajoudeh99@gmail.com
+                  </a>
+                </div>
+                <div class="contact__info-group">
+                  <p>Socials</p>
+                  <ul class="contact__info-list">
+                    <li class="contact__info-link">
+                      <a
+                        href="https://www.linkedin.com/in/mousa-joudeh/"
+                        class="nav-link"
+                        target="_blank"
+                        >LinkedIn</a
+                      >
+                    </li>
+                    <li class="contact__info-link">
+                      <a
+                        href="https://github.com/Mousa-Joudeh"
+                        class="nav-link"
+                        target="_blank"
+                        >GitHub</a
+                      >
+                    </li>
+                    <li class="contact__info-link">
+                      <a
+                        href="https://www.instagram.com/joudehmousa/"
+                        class="nav-link"
+                        target="_blank"
+                        >Instagram</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+                <div class="contact__info-group">
+                  <p>Location</p>
+                  <a href="#" class="nav-link"> Amman - Jordan </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- ================ FOOTER ================ -->
+      <footer>
+        <div class="container">
+          <div class="footer__content">
+            <div class="footer__side">
+              <div class="footer__logo">
+                <img src="assets/images/logo.svg" alt="Logo" />
+                <span>Mousa Joudeh</span>
+              </div>
+              <p class="footer__description">
+                Turning Ideas Into Digital Experiences
+              </p>
+              <div class="footer__contact">
+                <span>(email)</span>
+                <a href="mailto:mousajoudeh99@gmail.com" class="nav-link">
+                  mousajoudeh99@gmail.com
+                </a>
+              </div>
+              <div class="footer__contact">
+                <span>(phone)</span>
+                <a href="tel:0798557532" class="nav-link"> 079 855 7532 </a>
+              </div>
+            </div>
+            <div class="footer__side">
+              <span class="footer__title">(Links)</span>
+              <nav class="footer__links">
+                <a href="#" class="nav-link"> Home </a>
+                <a href="#about" class="nav-link"> About </a>
+                <a href="#projects" class="nav-link"> Projects </a>
+              </nav>
+            </div>
+            <div class="footer__side">
+              <span class="footer__title">(Socials)</span>
+              <nav class="footer__links">
+                <a
+                  href="https://www.linkedin.com/in/mousa-joudeh/"
+                  class="nav-link"
+                  target="_blank"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="https://github.com/Mousa-Joudeh"
+                  class="nav-link"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://www.instagram.com/joudehmousa/"
+                  class="nav-link"
+                  target="_blank"
+                >
+                  Instagram
+                </a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
