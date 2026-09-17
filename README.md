@@ -19,6 +19,7 @@
 2. [🛠️ Tools](#tools)
 3. [✨ Features](#features)
 4. [🚀 Getting Started](#getting-started)
+5. [🎨 Getting Started](#design)
 
 ## <a name="introduction">💬 Introduction</a>
 
@@ -56,3 +57,8 @@ or using GitHub:
 - Go to the project [repository](https://github.com/Mousa-Joudeh/portfolio-website) on my GitHub page
 - Click on the green button on the top 👆
 - Click Download ZIP
+
+## <a name="design">🎨 Design</a>
+
+![](design/image.png)
+![](design/image-02.png)
